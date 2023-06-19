@@ -1,0 +1,101 @@
+*{padding: 0;
+margin: 0;}
+
+.pagina1 {
+    background-image: url(img/fondo\ cod.jpg);
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+}
+
+.parrafo1 {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(47, 47, 49, 0.993) 0%, rgba(0, 0, 0, 1) 35%, rgb(99, 102, 102) 100%);
+
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.774);
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+
+
+.pagina2 {
+background-image: url(img/fondo\ digital.jpg);
+    background-size: auto;
+    font-size: 20px;
+    color: white;
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding:0;
+margin: 0;
+}
+
+.componentespc {
+  
+    text-align: center;
+    display: inline-block;
+   
+}
+.pagina3  {
+    background: linear-gradient(90deg, rgba(20,19,34,1) 0%, rgba(0,0,0,1) 35%, rgba(36,36,41,1) 100%);;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+.piezas {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+    .pagina4 {background-image:url(img/img2.wallspic.com-la_tipografa-3840x2160.jpg); 
+        background-size: auto;    
+         font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+        text-decoration: solid;
+        color: aliceblue;
+    }
+.bootimg{
+    width: 75%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+
+}
+
+
+
+
+footer {text-align: center;
+align-items: center;}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .piezas{ width: 100%;
+        padding-left: 0px;
+        flex-direction: column-reverse;}
+.index
+{ font-size: 5px;
+
+
+}
+
+}
